@@ -1,0 +1,36 @@
+comandos git:
+
+�vers�o do git: git --version
+�configurar as credenciais:
+	git config --global user.name "nome do usuario"
+	git config --global user.email "email"
+
+para saber qual nome/email est�:
+	git config user.name - saber o nome
+	git config user.email - email 
+
+Aula 02 - 8 criando reposit�rio
+
+- primeiro passo: criar uma pasta e com bot�o direito ir na op��o 
+'gitbash here'
+
+- git status: saber qual status do projeto dentro do github
+
+- git init: criar repositorio(local)
+
+- git add + nome do arquivo que foi criado: adicionar o arquivo ao github de forma 
+individual
+
+- git add . : adiciona todos os arquivos modificados de uma vez
+
+Aula 03 - Salvando arquivos - comitt
+- git commit nome do arquivo -m " (descreve o que � o commit)": comando para salvar 
+arquivo individualizado no github.
+
+- add repositorio primeira vez no git: git remote add origin https://github.com/luizDiSouz/curso_github.git
+o ultimo nome do repositorio criado foi retirado do gitHub.
+
+- na sequencia da um 'push': git push -u origin main (caso n�o v�, trocar main > master)
+
+
+
